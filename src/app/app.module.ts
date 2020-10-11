@@ -9,6 +9,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { NavbarModule, WavesModule, NavbarComponent, LogoComponent, LinksComponent, DropdownModule, ButtonsModule  } from 'angular-bootstrap-md';
 import { HomeComponent } from './components/home/home/home.component';
 import { FooterComponent } from './components/footer/footer/footer.component';
+import { ProductComponent } from './components/product/product/product.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FooterComponent } from './components/footer/footer/footer.component';
     AppComponent,
     ThnavbarComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
