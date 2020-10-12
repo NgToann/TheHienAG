@@ -1,46 +1,47 @@
 
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark info-color-dark fixed-top scrolling-navbar" [containerInside]="true">
+<!--navbar-dark info-color-dark-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar" [containerInside]="true">
   <mdb-navbar-brand>
-      <a class="logo navbar-brand" href="" routerLink="home"><strong>Cong Ty TNHH The Hien</strong></a>
+      <a class="logo navbar-brand waves-classic" mdbWavesEffect href="" routerLink="home"><strong>Cong Ty TNHH The Hien</strong></a>
   </mdb-navbar-brand>
   <links>
       <ul class="navbar-nav mr-auto">
-          <li class="nav-item waves-light ml-1 mr-1" mdbWavesEffect> <!--active -->
-              <a class="nav-link">Trang Chủ <span class="sr-only"></span></a>
+          <li class="nav-item waves-classic ml-1 mr-1" mdbWavesEffect> <!--active -->
+              <a class="nav-link"  routerLink="home">Trang Chủ <span class="sr-only"></span></a>
           </li>
-          <li class="nav-item waves-light ml-1 mr-1" mdbWavesEffect>
+
+          <li class="nav-item waves-classic ml-1 mr-1" mdbWavesEffect>
               <a class="nav-link">Giới Thiệu</a>
           </li>
-          <li class="nav-item dropdown" dropdown>
-            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+          
+          <li class="nav-item dropdown ml-1 mr-1" dropdown>
+            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-classic" mdbWavesEffect>
               Sản Phẩm<span class="caret"></span></a>
             <div *dropdownMenu>
             </div>
           </li>
-          <li class="nav-item dropdown" dropdown>
-            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+          
+          <li class="nav-item dropdown ml-1 mr-1" dropdown>
+            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-classic" mdbWavesEffect>
               Dự Án<span class="caret"></span></a>
             <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary rounded-0 shadow border-0" role="button">
-              <a class="dropdown-item waves-light" mdbWavesEffect href="#">Công Trình Công Nghiệp</a>
-              <a class="dropdown-item waves-light" mdbWavesEffect href="#">Dự Án Nhà Phố</a>
+              <a class="dropdown-item waves-classic" mdbWavesEffect href="#">Công Trình Công Nghiệp</a>
+              <a class="dropdown-item waves-classic" mdbWavesEffect href="#">Dự Án Nhà Phố</a>
             </div>
           </li>
 
-          <li class="nav-item waves-light ml-1 mr-1" mdbWavesEffect>
+          <li class="nav-item waves-classic ml-1 mr-1" mdbWavesEffect>
               <a class="nav-link">Tin Tức</a>
           </li>
-          <li class="nav-item waves-light ml-1 mr-1" routerLink="contact" mdbWavesEffect>
+
+          <li class="nav-item waves-classic ml-1 mr-1" routerLink="contact" mdbWavesEffect>
               <a class="nav-link">Liên Hệ</a>
           </li>
       </ul>
       <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item waves-light" mdbWavesEffect>
+          <li class="nav-item waves-classic" mdbWavesEffect>
               <a class="nav-link"><mdb-icon fas icon="phone-alt"></mdb-icon>Hotline: 0988 471 934</a>
           </li>
       </ul>
   </links>
 </mdb-navbar>
-<!-- Main -->
-<main>
-</main>
-<!-- /.Main -->
