@@ -1,21 +1,24 @@
 
 <!--navbar-dark info-color-dark-->
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar" [containerInside]="true">
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light white scrolling-navbar" [containerInside]="true">
   <mdb-navbar-brand>
-      <a class="logo navbar-brand waves-classic" mdbWavesEffect href="" routerLink="home"><strong>Cong Ty TNHH The Hien</strong></a>
+      <a class="logo navbar-brand waves-classic" mdbWavesEffect href="" routerLink="home">
+        <!-- <strong>Cong Ty TNHH The Hien</strong> -->
+        <img class="logoImage" src="../../../../assets/images/logo/thehienlogo.jpg">
+      </a>
   </mdb-navbar-brand>
   <links>
       <ul class="navbar-nav mr-auto">
           <li class="nav-item waves-classic ml-1 mr-1" mdbWavesEffect> <!--active -->
-              <a class="nav-link"  routerLink="home">Trang Chủ <span class="sr-only"></span></a>
+              <a class="nav-link" routerLink="home">Trang Chủ <span class="sr-only"></span></a>
           </li>
 
           <li class="nav-item waves-classic ml-1 mr-1" mdbWavesEffect>
-              <a class="nav-link">Giới Thiệu</a>
+              <a class="nav-link" routerLink="about">Giới Thiệu</a>
           </li>
           
           <li class="nav-item dropdown ml-1 mr-1" dropdown>
-            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-classic" mdbWavesEffect>
+            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-classic" routerLink = "product" mdbWavesEffect>
               Sản Phẩm<span class="caret"></span></a>
             <div *dropdownMenu>
             </div>
@@ -34,13 +37,13 @@
               <a class="nav-link">Tin Tức</a>
           </li>
 
-          <li class="nav-item waves-classic ml-1 mr-1" routerLink="contact" mdbWavesEffect>
-              <a class="nav-link">Liên Hệ</a>
+          <li class="nav-item waves-classic ml-1 mr-1" mdbWavesEffect>
+              <a class="nav-link" routerLink="contact">Liên Hệ</a>
           </li>
       </ul>
       <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item waves-classic" mdbWavesEffect>
-              <a class="nav-link"><mdb-icon fas icon="phone-alt"></mdb-icon>Hotline: 0988 471 934</a>
+              <a class="nav-link"><mdb-icon fas icon="phone-alt" class="phoneIcon"></mdb-icon>Hotline: 0988 471 934</a>
           </li>
       </ul>
   </links>

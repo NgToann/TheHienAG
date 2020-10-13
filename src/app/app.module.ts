@@ -10,6 +10,7 @@ import { NavbarModule, WavesModule, NavbarComponent, LogoComponent, LinksCompone
 import { HomeComponent } from './components/home/home/home.component';
 import { FooterComponent } from './components/footer/footer/footer.component';
 import { ProductComponent } from './components/product/product/product.component';
+import { AboutComponent } from './components/about/about/about.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ProductComponent } from './components/product/product/product.component
     ThnavbarComponent,
     HomeComponent,
     FooterComponent,
-    ProductComponent
+    ProductComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
