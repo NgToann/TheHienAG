@@ -1,0 +1,22 @@
+.view {
+  height: calc(100vh - 74px);
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+    height: calc(100vh - 74px);
+}
+
+.carousel .carousel-inner {
+    height: calc(100vh - 74px);
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+    height: calc(100vh - 74px);
+}
+
+img.d-block {
+    height: calc(100vh - 74px);
+    object-fit: cover;
+}
